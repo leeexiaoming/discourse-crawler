@@ -1,0 +1,13 @@
+{
+  "name": "uscardforum-topic-crawler",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "login": "node crawl.mjs login",
+    "crawl": "node crawl.mjs crawl"
+  },
+  "dependencies": {
+    "playwright": "^1.57.0"
+  }
+}
